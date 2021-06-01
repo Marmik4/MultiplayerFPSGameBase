@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4605ea6e3617d48beca702779f0b2c, type: 3}
+  m_Name: Glock
+  m_EditorClassIdentifier: 
+  Name: Glock
+  Burst: 0
+  fireRate: 0.1
+  ammo: 20
+  clipSize: 8
+  damageToEnv: 10
+  damageToPL: 25
+  range: 100
+  Glock_Bloom: 20
+  reloadTime: 1
+  WeaponPrefab: {fileID: 7590450745573241689, guid: d675161e4a30f6e4699dc8f1d9a9fae0,
+    type: 3}
+  reloadAnim: {fileID: 7400000, guid: 28abdfb7570cb114182614d26640b6c0, type: 2}

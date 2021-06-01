@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4605ea6e3617d48beca702779f0b2c, type: 3}
+  m_Name: Ak-47
+  m_EditorClassIdentifier: 
+  Name: AK-47
+  Burst: 1
+  fireRate: 0.1
+  ammo: 90
+  clipSize: 30
+  damageToEnv: 10
+  damageToPL: 25
+  range: 100
+  Glock_Bloom: 25
+  reloadTime: 1.5
+  WeaponPrefab: {fileID: 7590450745573241689, guid: 88f3fee2929a19e43bdba69144e52951,
+    type: 3}
